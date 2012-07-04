@@ -23,7 +23,6 @@ module Sprockets
     end
 
     def path_to(key)
-      raise
       "sass/#{key}"
     end
   end
